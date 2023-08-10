@@ -1,0 +1,56 @@
+/* Change the font of the h1 */
+h1 {
+    color: slateblue;
+    background-color: lightgray;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px #E9E9E9;
+}
+
+/* Change the font of the p */
+p {
+    color: slategray;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #3382b7;
+    overflow: hidden;
+  }
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #dedcdc;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #2060aa;
+    color: white;
+}
+
+.about {
+    text-align: center;
+}
+
+.schedule_form {
+    text-align: center;
+}
